@@ -29,6 +29,13 @@ export default function Login() {
       <Link href="/(tabs)/two" asChild>
         <Button title="Open Tab two" />
       </Link>
+      <Link href="/hello" asChild>
+        <Button title="Hello" />
+      </Link>
+
+      <Link href="/sticker-smash" asChild>
+        <Button title="sticker-smash" />
+      </Link>
 
       <Link href="/(tabs)/home" asChild>
         <Button title="Login" />
