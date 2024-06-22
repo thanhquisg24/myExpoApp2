@@ -1,14 +1,14 @@
-import EditScreenInfo from "@/components/EditScreenInfo";
-import { Link } from "expo-router";
-import { View, Text, Button } from "react-native";
+import EditScreenInfo from '@/components/EditScreenInfo';
+import { Link } from 'expo-router';
+import { View, Text, Button } from 'react-native';
 
 export default function Login() {
   return (
     <View
       style={{
         flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
+        justifyContent: 'center',
+        alignItems: 'center',
         rowGap: 15,
         columnGap: 15,
       }}
